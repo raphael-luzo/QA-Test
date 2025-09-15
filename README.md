@@ -8,7 +8,8 @@ Portanto, em nosso desafio, estabeleceremos alguns critérios mínimos para a ap
 
 # Critérios mínimos:
 
-- Cypress
+- Cypress (JS)
+- Playwright (Python)
 - [Clean Code](https://becode.com.br/clean-code/)
 - K6
 
@@ -18,14 +19,20 @@ Portanto, em nosso desafio, estabeleceremos alguns critérios mínimos para a ap
 - Organização dos projetos.
 - Criação de scripts de performance que tragam resultados que façam sentidos. 
 
-# Teste 1 - Automação WEB
+# Teste 1 - Automação WEB Cypress (JS)
 Crie um repositório no seu github chamado teste1-qa onde você vai subir o código que será escrito utilizando o Cypress para automatizar um sistema Web chamado BugBank, é um sistema Open Source que deverá ser utilizado para esse teste.
 
 O Link do BugBank que deverá ser usado para a automação é: https://bugbank.netlify.app/
 Fique a vontade para automatizar qualquer feature que você desejar do BugBank, o objetivo aqui é analisar as boas práticas usadas para realizar o teste.
 
-# Teste 2 - Teste Performance
-Crie um repositório no seu github chamado teste2-qa e elabore um script utilizando o K6.
+# Teste 2 - Automação WEB Playwright (Python)
+Crie um repositório no seu github chamado teste2-qa onde você vai subir o código que será escrito utilizando o Playwright para automatizar um sistema Web chamado BugBank, é um sistema Open Source que deverá ser utilizado para esse teste.
+
+O Link do BugBank que deverá ser usado para a automação é: https://bugbank.netlify.app/
+Fique a vontade para automatizar qualquer feature que você desejar do BugBank, o objetivo aqui é analisar as boas práticas usadas para realizar o teste.
+
+# Teste 3 - Teste Performance
+Crie um repositório no seu github chamado teste3-qa e elabore um script utilizando o K6.
 
 Escolha uma das APIs de https://github.com/toddmotto/public-apis ou quaquer outra API pública
 Criar um script no K6 "chamando" essa API
